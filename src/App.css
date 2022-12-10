@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Karla-Bold";
+  src: url("./assets/fonts/Karla-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Karla-Regular";
+  src: url("./assets/fonts/Karla-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Karla-Light";
+  src: url("./assets/fonts/Karla-Light.ttf");
+}
+
+@font-face {
+  font-family: "Karla-ExtraBold";
+  src: url("./assets/fonts/Karla-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Karla-Italic";
+  src: url("./assets/fonts/Karla-Italic.ttf");
+}
+
+h1 a,
+p {
+  font-family: 'Karla-Regular', sans-serif;
+  color: #323A45;
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+ul li {
+  line-height: 1.7;
+
+}
+
+a {
+  font-family: 'Karla-Regular', sans-serif;
+  color: #323A45;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #848484;
+}
+
+p.light {
+  font-family: 'Karla-Light', sans-serif;
+  color: #848484;
+  font-size: 1.4rem;
+}
+
+span {
+  font-family: 'Karla-Bold', sans-serif;
+  color: #323A45;
+  font-size: 1.4rem;
+}
+
+.big {
+  font-family: 'Karla-Light', sans-serif;
+  color: #848484;
+  font-size: 2.5rem;
+  margin: 0 5px;
+}
+
+.bold {
+  font-family: 'Karla-Bold', sans-serif;
+  color: #323A45;
+  font-size: 1.4rem;
+}
+
+.xbold {
+  font-family: 'Karla-ExtraBold', sans-serif;
+  color: #323A45;
+  font-size: 1.4rem;
+}
+
+.italic {
+  font-family: 'Karla-Italic', sans-serif;
+  color: #323A45;
+  font-size: 1.2rem;
+}
+
+/* ===============================
+  header
+=============================== */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+
+.navBar {
+  position: relative;
+}
+
+.navBar .burger {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  background-color: lightblue;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  /* max-width: 80%; */
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.menuNav ol {
+  list-style-type: none;
+}
+
+.menuNav ol li {
+  text-align: center;
+  margin: 30px;
+}
+
+.showMenu {
+  width: 100%;
+}
+
+/* header h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #323A45;
+  font-size: 1.4rem;
+}
+
+header nav ol {
+  position: fixed;
+  background-color: #848484;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  transition: all 0.5s linear;
+}
+
+header nav ol li {
+  margin: 10px 0;
+}
+
+header nav ol li a:hover {
+  color: #323A45;
+} */
+
+/* ===============================
+  main
+=============================== */
