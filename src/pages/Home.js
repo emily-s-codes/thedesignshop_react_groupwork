@@ -1,7 +1,6 @@
 import SingleProduct from "../components/SingleProduct";
-import products from "../components/data.json"
 
-const Home = (props) => {
+const Home = () => {
     return (<div><SingleProduct /></div>);
 }
 
